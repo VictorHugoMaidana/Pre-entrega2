@@ -1,0 +1,1764 @@
+* {
+    margin: 0%;
+    padding: 0%
+}
+
+body {
+    background: rgb(6, 255, 0);
+    background: linear-gradient(90deg, rgba(6, 255, 0, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(89, 255, 0, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bolder;
+    min-height: 100vh;
+}
+
+header {
+    background: rgb(6, 255, 0);
+    background: linear-gradient(90deg, rgba(6, 255, 0, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(89, 255, 0, 1) 100%);
+    display: grid;
+    align-items: center;
+    position: sticky;
+    top: 2px;
+    height: 80px;
+}
+
+nav, ul, li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    position: sticky;
+    top: 80px;
+    padding: 0%;
+    height: 100px;
+}
+
+a {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 8px;
+    height: 20px;
+    border: solid 4px greenyellow;
+}
+
+.imagendelogo img {
+    width: 110px;
+    height: 50px;
+}
+
+.imagendeinicio img {
+    width: 100%;
+    height: 100%;
+    border: solid 4px rgb(255, 255, 255);
+}
+
+.imagendeinicio p {
+    color: rgb(61, 15, 170);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 238px;
+    margin-left: 2px;
+}
+
+.textoprincipal h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.textoprincipal p {
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: start;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+/*  CSS Home  */
+
+.flexcontainerindex {
+    color: rgb(0, 0, 0);
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.ciudadesmasverdes h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+.ciudadesmasverdes img {
+    width: 273px;
+    height: 200px;
+    border: solid 4px rgb(255, 255, 255);
+}
+
+.ciudadesmasverdes p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+
+.masinteligentes h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+.masinteligentes img {
+    width: 273px;
+    height: 200px;
+    border: solid 4px rgb(255, 255, 255);
+}
+
+.masinteligentes p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+
+.paratodaslaspersonas h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+.paratodaslaspersonas img {
+    width: 273px;
+    height: 200px;
+    border: solid 4px rgb(255, 255, 255);
+}
+
+.paratodaslaspersonas p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+
+.laambiciontitulo h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+
+.laambiciontitulo p {
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+
+.flexconteinerindexsegundo {
+    color: rgb(0, 0, 0);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.biodiversidad img {
+    width: 273px;
+    height: 200px;
+    border: solid 4px rgb(255, 255, 255);
+}
+
+.biodiversidad p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+
+.agua img {
+    width: 273px;
+    height: 200px;
+    border: solid 4px rgb(255, 255, 255);
+}
+
+.agua p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+
+/* CSS Products */
+
+.flexcontainer {
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.flexcontainer h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+.flexcontainer img {
+    width: 273px;
+    height: 200px;
+    border: solid 4px rgb(255, 255, 255);
+}
+
+.cementos img {
+    width: 100%;
+    height: 100%;
+}
+
+.flexcontainer p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+
+.flexcontainersegundo {
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.flexcontainersegundo h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+.flexcontainersegundo img {
+    width: 273px;
+    height: 200px;
+    border: solid 4px rgb(255, 255, 255);
+}
+
+.flexcontainersegundo p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+
+.flexcontainertercero {
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.flexcontainertercero h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+.flexcontainertercero img {
+    width: 273px;
+    height: 200px;
+    border: solid 4px rgb(255, 255, 255);
+}
+
+.flexcontainertercero p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+
+/* CSS Innovations */
+
+.preguntasfrecuentes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.primerapregunta {
+    border: 2px solid rgb(11, 66, 5);
+    padding: 10px;
+    margin: 5px;
+}
+
+.primerapregunta h2 {
+    font-size: 30px;
+}
+
+.primerapregunta p {
+    font-size: 15px;
+}
+
+.segundapregunta {
+    border: 2px solid rgb(11, 66, 5);
+    padding: 10px;
+    margin: 5px;
+}
+
+.segundapregunta h2 {
+    font-size: 30px;
+}
+
+.segundapregunta p {
+    font-size: 15px;
+}
+
+
+.tercerapregunta {
+    border: 2px solid rgb(11, 66, 5);
+    padding: 10px;
+    margin: 5px;
+}
+
+.tercerapregunta h2 {
+    font-size: 30px;
+}
+
+.tercerapregunta p {
+    font-size: 15px;
+}
+
+.cuartapregunta {
+    border: 2px solid rgb(11, 66, 5);
+    padding: 10px;
+    margin: 5px;
+}
+
+.cuartapregunta h2 {
+    font-size: 30px;
+}
+
+.cuartapregunta p {
+    font-size: 15px;
+}
+
+.quintapregunta {
+    border: 2px solid rgb(11, 66, 5);
+    padding: 10px;
+    margin: 5px;
+}
+
+.quintapregunta h2 {
+    font-size: 30px;
+}
+
+.quintapregunta p {
+    font-size: 15px;
+}
+
+/* CSS Preguntas Frecuentes */
+
+.allquestions {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.firstquestion {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid rgb(11, 66, 5);
+}
+
+.firstquestion h2 {
+    font-size: 30px;
+}
+
+.firstquestion img {
+    height: 300px;
+}
+
+.secondquestion {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid rgb(11, 66, 5);
+}
+
+.secondquestion h2 {
+    font-size: 30px;
+}
+
+.secondquestion img {
+    height: 350px;
+}
+
+.thirdquestion {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid rgb(11, 66, 5);
+}
+
+.thirdquestion h2 {
+    font-size: 30px;
+}
+
+.thirdquestion p {
+    font-size: 15px;
+}
+
+.quarterquestion {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid rgb(11, 66, 5);
+}
+
+.quarterquestion h2 {
+    font-size: 30px;
+}
+
+.quarterquestion p {
+    font-size: 15px;
+}
+
+/* CSS Contacts */
+
+.formulario {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* CSS Footer */
+
+.finaldepaguina {
+    background: rgb(1, 83, 0);
+    background: linear-gradient(90deg, rgba(1, 83, 0, 1) 0%, rgba(75, 253, 29, 1) 50%, rgba(44, 111, 18, 1) 100%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.finaldepaguina strong {
+    font-size: 6px;
+    padding-left: 3px;
+}
+
+.finaldepaguina p {
+    font-size: 6px;
+    padding-top: 15px;
+}
+
+.finaldepaguina img {
+    padding-right: 7 px;
+    height: 12px;
+}
+
+
+
+/* Declaro nombres de las areas para las grillas */
+
+
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.grilla {
+    background-color: brown;
+    margin-bottom: 1.5em;
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+}
+
+@media (min-width:500px) {
+    .grilla {
+        margin: 0;
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas:
+        "header header"
+        "nav nav"
+        "main main"
+        "footer footer";
+    }
+
+    body {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(32, 146, 173, 1) 0%, rgba(57, 210, 206, 0.7371323529411764) 0%, rgba(24, 161, 150, 1) 50%, rgba(43, 187, 174, 1) 100%, rgba(54, 187, 4, 1) 100%, rgba(5, 175, 7, 1) 100%, rgba(5, 96, 179, 1) 100%, rgba(42, 241, 239, 1) 100%);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-weight: bolder;
+        min-height: 100vh;
+    }
+
+    header {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(57, 210, 206, 0.7371323529411764) 0%, rgba(20, 126, 150, 1) 0%, rgba(5, 255, 234, 1) 50%, rgba(29, 122, 114, 1) 100%, rgba(54, 187, 4, 1) 100%, rgba(5, 175, 7, 1) 100%, rgba(5, 96, 179, 1) 100%, rgba(42, 241, 239, 1) 100%);
+        display: grid;
+        justify-items: center;
+        position: sticky;
+        top: 2px;
+        height: 100px;
+    }
+
+    nav, ul, li {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(57, 210, 206, 0.7371323529411764) 0%, rgba(20, 126, 150, 1) 0%, rgba(5, 255, 234, 1) 50%, rgba(29, 122, 114, 1) 100%, rgba(54, 187, 4, 1) 100%, rgba(5, 175, 7, 1) 100%, rgba(5, 96, 179, 1) 100%, rgba(42, 241, 239, 1) 100%);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+        position: sticky;
+        top: 100px;
+        height: 55px;
+    }
+
+    a {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 8px;
+        padding: 10px;
+        margin: 8px;
+        height: 40px;
+        border: solid 4px greenyellow;
+    }
+
+    .imagendelogo img {
+        width: 200px;
+        height: 75px;
+    }
+
+    .imagendeinicio img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagendeinicio p {
+        color: rgb(61, 15, 170);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        position: absolute;
+        top: 254px;
+        margin-left: 7px;
+    }
+
+    .textoprincipal h1 {
+        color: rgb(0, 0, 0);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .textoprincipal p {
+        color: rgb(0, 0, 0);
+        text-align: start;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    /*  CSS Home  */
+
+    .flexcontainerindex {
+        color: rgb(0, 0, 0);
+        display: grid;
+        grid-template-columns: 1f 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .ciudadesmasverdes h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .ciudadesmasverdes img {
+        width: 473px;
+        height: 200px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .ciudadesmasverdes p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .masinteligentes h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .masinteligentes img {
+        width: 473px;
+        height: 200px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .masinteligentes p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .paratodaslaspersonas h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .paratodaslaspersonas img {
+        width: 473px;
+        height: 200px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .paratodaslaspersonas p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .laambiciontitulo h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .laambiciontitulo p {
+        color: rgb(0, 0, 0);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .flexconteinerindexsegundo {
+        color: rgb(0, 0, 0);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .biodiversidad img {
+        width: 473px;
+        height: 200px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .biodiversidad p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .agua img {
+        width: 473px;
+        height: 200px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .agua p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    /*  CSS Products  */
+
+    .flexcontainer {
+        color: rgb(0, 0, 0);
+        display: grid;
+        grid-template-columns: 1f 1fr;
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .flexcontainer h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .flexcontainer img {
+        width: 473px;
+        height: 200px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .flexcontainer p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .flexcontainersegundo {
+        color: rgb(0, 0, 0);
+        display: grid;
+        grid-template-columns: 1f 1fr;
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .flexcontainersegundo h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .flexcontainersegundo img {
+        width: 273px;
+        height: 200px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .flexcontainersegundo p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .flexcontainertercero {
+        color: rgb(0, 0, 0);
+        display: grid;
+        grid-template-columns: 1f 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .flexcontainertercero h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .flexcontainertercero img {
+        width: 273px;
+        height: 200px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .flexcontainertercero p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .finaldepaguina {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(57, 210, 206, 0.7371323529411764) 0%, rgba(20, 126, 150, 1) 0%, rgba(5, 255, 234, 1) 50%, rgba(29, 122, 114, 1) 100%, rgba(54, 187, 4, 1) 100%, rgba(5, 175, 7, 1) 100%, rgba(5, 96, 179, 1) 100%, rgba(42, 241, 239, 1) 100%);
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        height: 45px;
+    }
+
+    .finaldepaguina strong {
+        font-size: 8px;
+        padding-left: 3px;
+    }
+
+    .finaldepaguina p {
+        font-size: 8px;
+        padding-top: 15px;
+    }
+
+    .finaldepaguina img {
+        padding-right: 7px;
+        height: 20px;
+    }
+
+}
+
+@media (min-width:768px) {
+    .grilla {
+        background-color: brown;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "main main main"
+        "footer footer footer";
+    }
+
+    body {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(57, 210, 206, 0.7371323529411764) 0%, rgba(20, 126, 150, 1) 0%, rgba(14, 31, 85, 1) 0%, rgba(11, 0, 85, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(10, 0, 113, 1) 50%, rgba(255, 255, 255, 1) 100%, rgba(48, 0, 0, 1) 100%, rgba(23, 2, 251, 1) 100%, rgba(29, 122, 114, 1) 100%, rgba(54, 187, 4, 1) 100%, rgba(5, 175, 7, 1) 100%, rgba(5, 96, 179, 1) 100%, rgba(42, 241, 239, 1) 100%);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-weight: bolder;
+        min-height: 100vh;
+    }
+
+    header {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(57, 210, 206, 0.7371323529411764) 0%, rgba(20, 126, 150, 1) 0%, rgba(14, 31, 85, 1) 0%, rgba(11, 0, 85, 1) 0%, rgba(15, 0, 179, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(2, 0, 134, 1) 100%, rgba(48, 0, 0, 1) 100%, rgba(23, 2, 251, 1) 100%, rgba(29, 122, 114, 1) 100%, rgba(54, 187, 4, 1) 100%, rgba(5, 175, 7, 1) 100%, rgba(5, 96, 179, 1) 100%, rgba(42, 241, 239, 1) 100%);
+        display: grid;
+        justify-items: center;
+        position: sticky;
+        top: 2px;
+        height: 125px;
+    }
+
+    nav, ul, li {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(57, 210, 206, 0.7371323529411764) 0%, rgba(20, 126, 150, 1) 0%, rgba(14, 31, 85, 1) 0%, rgba(11, 0, 85, 1) 0%, rgba(15, 0, 179, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(2, 0, 134, 1) 100%, rgba(48, 0, 0, 1) 100%, rgba(23, 2, 251, 1) 100%, rgba(29, 122, 114, 1) 100%, rgba(54, 187, 4, 1) 100%, rgba(5, 175, 7, 1) 100%, rgba(5, 96, 179, 1) 100%, rgba(42, 241, 239, 1) 100%);
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        list-style: none;
+        position: sticky;
+        top: 125px;
+        height: 60px;
+    }
+
+    a {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-weight: bold;
+        margin: 10px;
+        height: 40px;
+        border: solid 4px greenyellow;
+    }
+
+    .imagendelogo img {
+        width: 300px;
+        height: 100px;
+    }
+
+    .imagendeinicio img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagendeinicio p {
+        color: rgb(61, 15, 170);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        top: 348px;
+        margin-left: 8px;
+    }
+
+    .textoprincipal h1 {
+        color: rgb(0, 0, 0);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .textoprincipal p {
+        color: rgb(0, 0, 0);
+        text-align: start;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    /*  CSS Home  */
+
+    .flexcontainerindex {
+        color: rgb(0, 0, 0);
+        display: grid;
+        grid-template-columns: 1f 1fr 1fr;
+        gap: 10px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .ciudadesmasverdes h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .ciudadesmasverdes img {
+        width: 273px;
+        height: 200px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .ciudadesmasverdes p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .masinteligentes h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .masinteligentes img {
+        width: 273px;
+        height: 200px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .masinteligentes p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .paratodaslaspersonas h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .paratodaslaspersonas img {
+        width: 273px;
+        height: 200px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .paratodaslaspersonas p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .laambiciontitulo h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .laambiciontitulo p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .flexconteinerindexsegundo {
+        color: rgb(0, 0, 0);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .biodiversidad img {
+        width: 273px;
+        height: 200px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .biodiversidad p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .agua img {
+        width: 273px;
+        height: 200px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .agua p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    /*  CSS Products  */
+
+    .flexcontainer {
+        color: rgb(0, 0, 0);
+        display: grid;
+        grid-template-columns: 1f 1fr 1fr;
+        gap: 10px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .flexcontainer h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .flexcontainer img {
+        width: 273px;
+        height: 200px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .flexcontainer p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .flexcontainersegundo {
+        color: rgb(0, 0, 0);
+        display: grid;
+        grid-template-columns: 1f 1fr;
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .flexcontainersegundo h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .flexcontainersegundo img {
+        width: 273px;
+        height: 200px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .flexcontainersegundo p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .flexcontainertercero {
+        color: rgb(0, 0, 0);
+        display: grid;
+        grid-template-columns: 1f 1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 15px;
+
+    }
+
+    .flexcontainertercero h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .flexcontainertercero img {
+        width: 273px;
+        height: 200px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .flexcontainertercero p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .finaldepaguina {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(57, 210, 206, 0.7371323529411764) 0%, rgba(20, 126, 150, 1) 0%, rgba(14, 31, 85, 1) 0%, rgba(11, 0, 85, 1) 0%, rgba(15, 0, 179, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(2, 0, 134, 1) 100%, rgba(48, 0, 0, 1) 100%, rgba(23, 2, 251, 1) 100%, rgba(29, 122, 114, 1) 100%, rgba(54, 187, 4, 1) 100%, rgba(5, 175, 7, 1) 100%, rgba(5, 96, 179, 1) 100%, rgba(42, 241, 239, 1) 100%);
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        height: 45px;
+    }
+
+    .finaldepaguina strong {
+        font-size: 8px;
+        padding-left: 3px;
+    }
+
+    .finaldepaguina p {
+        font-size: 8px;
+        padding-top: 15px;
+    }
+
+    .finaldepaguina img {
+        padding-right: 7px;
+        height: 20px;
+    }
+
+}
+
+@media (min-width:1200px) {
+
+    body {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(20, 126, 150, 1) 0%, rgba(14, 31, 85, 1) 0%, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%, rgba(195, 41, 41, 1) 100%, rgba(0, 10, 0, 1) 100%, rgba(2, 0, 134, 1) 100%, rgba(48, 0, 0, 1) 100%, rgba(23, 2, 251, 1) 100%, rgba(29, 122, 114, 1) 100%, rgba(58, 226, 24, 1) 100%, rgba(5, 175, 7, 1) 100%, rgba(0, 0, 0, 1) 100%);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-weight: bolder;
+        min-height: 100vh;
+    }
+
+    header {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(20, 126, 150, 1) 0%, rgba(14, 31, 85, 1) 0%, rgba(11, 0, 85, 1) 0%, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(77, 255, 0, 1) 50%, rgba(0, 10, 0, 1) 100%, rgba(2, 0, 134, 1) 100%, rgba(48, 0, 0, 1) 100%, rgba(23, 2, 251, 1) 100%, rgba(29, 122, 114, 1) 100%, rgba(58, 226, 24, 1) 100%, rgba(5, 175, 7, 1) 100%, rgba(0, 0, 0, 1) 100%);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top: 2px;
+        padding: 10px;
+        height: 125px;
+    }
+
+    nav, ul, li {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(20, 126, 150, 1) 0%, rgba(14, 31, 85, 1) 0%, rgba(11, 0, 85, 1) 0%, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(77, 255, 0, 1) 50%, rgba(0, 10, 0, 1) 100%, rgba(2, 0, 134, 1) 100%, rgba(48, 0, 0, 1) 100%, rgba(23, 2, 251, 1) 100%, rgba(29, 122, 114, 1) 100%, rgba(58, 226, 24, 1) 100%, rgba(5, 175, 7, 1) 100%, rgba(0, 0, 0, 1) 100%);
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        position: sticky;
+        top: 126px;
+        height: 85px;
+    }
+
+    a {
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 12px;
+        padding: 35px;
+        padding-top: 20px;
+        margin-right: 35px;
+        margin-left: 30px;
+        height: 50px;
+        border: solid 4px greenyellow;
+    }
+
+    .imagendelogo img {
+        width: 300px;
+        height: 100px;
+    }
+
+    .imagendeinicio img {
+        width: 100%;
+        height: 100%;
+        border: solid 6px rgb(60, 255, 0);
+    }
+
+    .imagendeinicio p {
+        color: rgb(24, 5, 70);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        position: absolute;
+        top: 480px;
+        margin-left: 10px;
+    }
+
+    .textoprincipal h1 {
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+    .textoprincipal p {
+        color: white;
+        text-align: start;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    /*  CSS Home  */
+
+    .flexcontainerindex {
+        color: rgb(255, 255, 255);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+        align-items: center;
+        font-size: 15px;
+        margin-right: 57px;
+    }
+
+    .ciudadesmasverdes h2 {
+        color: white;
+        padding-left: 55px;
+    }
+
+    .ciudadesmasverdes img {
+        margin-left: 50px;
+        height: 200px;
+    }
+
+    .ciudadesmasverdes img:hover {
+        transform: scale(1.1);
+        transition: 2s;
+    }
+
+    .ciudadesmasverdes p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding-bottom: 55px;
+        padding-left: 50px;
+        margin-top: 10px;
+    }
+
+    .masinteligentes h2 {
+        color: white;
+        padding-left: 80px;
+    }
+
+    .masinteligentes img {
+        margin-left: 80px;
+        height: 200px;
+    }
+
+    .masinteligentes img:hover {
+        transform: scale(1.1);
+        transition: 2s;
+    }
+
+    .masinteligentes p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding-bottom: 55px;
+        padding-left: 80px;
+        margin-top: 10px;
+    }
+
+    .paratodaslaspersonas h2 {
+        color: white;
+        padding-left: 75px;
+    }
+
+    .paratodaslaspersonas img {
+        margin-left: 80px;
+        height: 200px;
+    }
+
+    .paratodaslaspersonas img:hover {
+        transform: scale(1.1);
+        transition: 2s;
+    }
+
+    .paratodaslaspersonas p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding-left: 80px;
+        margin-top: 10px;
+    }
+
+    .laambiciontitulo h2 {
+        color: white;
+        padding-left: 55px;
+    }
+
+    .laambiciontitulo p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .flexconteinerindexsegundo {
+        color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .biodiversidad img {
+        margin-top: 20px;
+        margin-right: 430px;
+        width: 273px;
+        height: 200px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .biodiversidad img:hover {
+        transform: scale(1.1);
+        transition: 2s;
+    }
+
+    .biodiversidad p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        padding-top: 10px;
+        padding-right: 420px;
+    }
+
+    .agua img {
+        width: 273px;
+        height: 200px;
+        margin-right: 30px;
+        border: solid 4px rgb(255, 255, 255);
+    }
+
+    .agua img:hover {
+        transform: scale(1.1);
+        transition: 2s;
+    }
+
+    .agua p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 12px;
+        padding-top: 10px;
+        padding-right: 50px;
+    }
+
+    /*  CSS Products  */
+
+    .flexcontainer {
+        color: rgb(255, 255, 255);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+        align-items: center;
+        font-size: 15px;
+        margin-right: 57px;
+    }
+
+    .cementos h2 {
+        color: white;
+        padding-left: 55px;
+    }
+
+    .cementos img {
+        margin-left: 50px;
+        height: 200px;
+    }
+
+    .cementos img:hover {
+        transform: scale(1.1);
+        transition: 2s;
+    }
+
+    .cementos p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding-bottom: 240px;
+        padding-left: 50px;
+        margin-top: 10px;
+    }
+
+    .hormigones h2 {
+        color: white;
+        padding-left: 80px;
+    }
+
+    .hormigones img {
+        margin-left: 80px;
+        height: 200px;
+    }
+
+    .hormigones img:hover {
+        transform: scale(1.1);
+        transition: 2s;
+    }
+
+    .hormigones p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding-bottom: 273px;
+        padding-left: 80px;
+        margin-top: 10px;
+    }
+
+    .revoques h2 {
+        color: white;
+        padding-left: 75px;
+    }
+
+    .revoques img {
+        margin-left: 80px;
+        height: 200px;
+    }
+
+    .revoques img:hover {
+        transform: scale(1.1);
+        transition: 2s;
+    }
+
+    .revoques p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding-bottom: 328px;
+        padding-left: 80px;
+        margin-top: 10px;
+    }
+
+    .flexcontainersegundo {
+        color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        font-size: 15px;
+        margin-right: 105px;
+    }
+
+    .pegamentos h2 {
+        color: white;
+        padding-left: 55px;
+    }
+
+    .pegamentos img {
+        margin-left: 50px;
+        height: 200px;
+    }
+
+    .pegamentos img:hover {
+        transform: scale(1.1);
+        transition: 2s;
+    }
+
+    .pegamentos p {
+        text-align: center;
+        padding-bottom: 510px;
+        padding-left: 50px;
+        margin-top: 10px;
+    }
+
+    .impermeabilizantes h2 {
+        color: white;
+        padding-left: 80px;
+    }
+
+    .impermeabilizantes img {
+        margin-left: 85px;
+        height: 200px;
+    }
+
+    .impermeabilizantes img:hover {
+        transform: scale(1.1);
+        transition: 2s;
+    }
+
+    .impermeabilizantes p {
+        text-align: center;
+        padding-bottom: 491px;
+        padding-left: 80px;
+        margin-top: 10px;
+    }
+
+    .cales h2 {
+        color: white;
+        padding-left: 75px;
+    }
+
+    .cales img {
+        margin-left: 75px;
+        height: 200px;
+    }
+
+    .cales img:hover {
+        transform: scale(1.1);
+        transition: 2s;
+    }
+
+    .cales p {
+        text-align: center;
+        padding-bottom: 510px;
+        padding-left: 80px;
+        margin-top: 10px;
+    }
+
+    .flexcontainertercero {
+        color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 15px;
+        margin-right: 120px;
+        margin-left: 30px;
+    }
+
+    .liganteshidraulicos h2 {
+        color: white;
+        padding-left: 75px;
+    }
+
+    .liganteshidraulicos img {
+        margin-left: 75px;
+        height: 200px;
+    }
+
+    .liganteshidraulicos img:hover {
+        transform: scale(1.1);
+        transition: 2s;
+    }
+
+    .liganteshidraulicos p {
+        text-align: center;
+        padding-bottom: 225px;
+        padding-left: 40px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+    .agregadospetreos h2 {
+        color: white;
+        padding-top: 10px;
+        padding-right: 220px;
+    }
+
+    .agregadospetreos img {
+        margin-right: 220px;
+        height: 200px;
+    }
+
+    .agregadospetreos img:hover {
+        transform: scale(1.1);
+        transition: 2s;
+    }
+
+    .agregadospetreos p {
+        text-align: center;
+        padding-right: 375px;
+        padding-bottom: 181px;
+        padding-left: 80px;
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+
+    .finaldepaguina {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(20, 126, 150, 1) 0%, rgba(14, 31, 85, 1) 0%, rgba(11, 0, 85, 1) 0%, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(77, 255, 0, 1) 50%, rgba(0, 10, 0, 1) 100%, rgba(2, 0, 134, 1) 100%, rgba(48, 0, 0, 1) 100%, rgba(23, 2, 251, 1) 100%, rgba(29, 122, 114, 1) 100%, rgba(58, 226, 24, 1) 100%, rgba(5, 175, 7, 1) 100%, rgba(0, 0, 0, 1) 100%);
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        height: 95px;
+    }
+
+    .finaldepaguina strong {
+        font-size: 15px;
+        padding-left: 3px;
+    }
+
+    .finaldepaguina p {
+        font-size: 15px;
+        padding-top: 15px;
+    }
+
+    .finaldepaguina img {
+        padding-right: 7px;
+        height: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.parrafosegundaseccion {
+    text-align: center;
+    /*MODIFICO LA ALINEACIÓN DE TEXTO*/
+
+/*
+
+    font-size: 15px;
+    /*MODIFICO EL TAMAÑO DE LA FUENTE*/
+
+/*  
+   
+    font-weight: bold;
+    /*MODIFICO FORMATO A NEGRITA */
+
+/*
+    font-family: Arial, Helvetica, sans-serif;
+    /*MODIFICO ESTILO DE LETRAS */
+
+/* 
+li {
+    list-style-type: none;
+}
+
+
+
+/*PROPIEDADES DE FONDO*/
+/*
+.parrafo {
+    background-color: brown;
+    background-image: url(https://oncediario.com.ar/imagenes/noticias/cordoba-la-cementera-holcim-argentina-cierra-su-planta-de-yocsina-JSFM.jpg);
+    /*CON LA HERRAMIENTA URL PODEMOS COLOCAR LA DIRECCION DE NUESTRA FOTO */
+
+/* 
+    background-repeat: no-repeat;
+    /*CON ESTA PROPIEDAD NO SE REPITE*/
+
+/* 
+    background-position-x: center;
+    /*CON ESTA PROPIEDAD ACOMODO LA IMAGEN SEGUN SU TAMAÑO*/
+
+/* 
+    background-size: cover;
+    /*CON ESTA PROPIEDAD OCUPA TODO EL ESPACIO DISPONIBLE*/
